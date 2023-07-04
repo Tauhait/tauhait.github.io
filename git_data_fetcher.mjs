@@ -260,47 +260,47 @@ const languages_icons = {
   Rust: "logos-rust",
 };
 
-fetch(baseUrl, {
-  method: "POST",
-  headers: headers,
-  body: JSON.stringify(query_pinned_projects),
-})
-  .then((response) => response.text())
-  .then((txt) => {
-    const data = JSON.parse(txt);
-    // console.log(txt);
-    const projects = data["data"]["user"]["pinnedItems"]["nodes"];
-    var newProjects = { data: [] };
-    for (var i = 0; i < projects.length; i++) {
-      var obj = projects[i];
-      var langobjs = obj["languages"]["nodes"];
-      var newLangobjs = [];
-      for (var j = 0; j < langobjs.length; j++) {
-        if (langobjs[j]["name"] in languages_icons) {
-          newLangobjs.push({
-            name: langobjs[j]["name"],
-            iconifyClass: languages_icons[langobjs[j]["name"]],
-          });
-        }
-      }
-      obj["languages"] = newLangobjs;
-      newProjects["data"].push(obj);
-    }
+// fetch(baseUrl, {
+//   method: "POST",
+//   headers: headers,
+//   body: JSON.stringify(query_pinned_projects),
+// })
+//   .then((response) => response.text())
+//   .then((txt) => {
+//     const data = JSON.parse(txt);
+//     // console.log(txt);
+//     const projects = data["data"]["user"]["pinnedItems"]["nodes"];
+//     var newProjects = { data: [] };
+//     for (var i = 0; i < projects.length; i++) {
+//       var obj = projects[i];
+//       var langobjs = obj["languages"]["nodes"];
+//       var newLangobjs = [];
+//       for (var j = 0; j < langobjs.length; j++) {
+//         if (langobjs[j]["name"] in languages_icons) {
+//           newLangobjs.push({
+//             name: langobjs[j]["name"],
+//             iconifyClass: languages_icons[langobjs[j]["name"]],
+//           });
+//         }
+//       }
+//       obj["languages"] = newLangobjs;
+//       newProjects["data"].push(obj);
+//     }
 
-    console.log("Fetching the Pinned Projects Data.\n");
-    fs.writeFile(
-      "./src/shared/opensource/projects.json",
-      JSON.stringify(newProjects),
-      function (err) {
-        if (err) {
-          console.log(
-            "Error occured in pinned projects 1",
-            JSON.stringify(err)
-          );
-        }
-      }
-    );
-  })
-  .catch((error) =>
-    console.log("Error occured in pinned projects 2", JSON.stringify(error))
-  );
+//     console.log("Fetching the Pinned Projects Data.\n");
+//     fs.writeFile(
+//       "./src/shared/opensource/projects.json",
+//       JSON.stringify(newProjects),
+//       function (err) {
+//         if (err) {
+//           console.log(
+//             "Error occured in pinned projects 1",
+//             JSON.stringify(err)
+//           );
+//         }
+//       }
+//     );
+//   })
+//   .catch((error) =>
+//     console.log("Error occured in pinned projects 2", JSON.stringify(error))
+//   );
