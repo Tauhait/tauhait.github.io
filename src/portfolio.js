@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "I am a highly skilled and experienced software engineer 🧑🏻‍💻 with a strong passion for artificial intelligence 🤖. I thrive on new challenges and constantly seek opportunities to push the boundaries of innovation.",
   resumeLink:
-    "https://drive.google.com/file/d/16N4Te1B6Zg3xnuokiHetPK2iUWfuk7Hu/view?usp=drive_link",
+    "https://drive.google.com/file/d/1bK_DC5FS8_3SnNxrpcFD91n8WXzlV_G_/view?usp=sharing",
   portfolio_repository: "https://github.com/Tauhait/tauhait.github.io",
   githubProfile: "https://github.com/Tauhait",
 };
@@ -738,7 +738,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "picDpBlueBg.jpeg",
+    profile_image_path: "picofme-15.png",
     description:
       "You can message me, I will reply within 24 hours. I can help you with ML, and AI development.",
   },

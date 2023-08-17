@@ -27,9 +27,9 @@
     },
     {
       "id": "R_kgDOG_vYHA",
-      "name": "Telco Customer Churn",
+      "name": "CUSTOMER CHURN PREDICTION | End-to-End ML",
       "url": "https://github.com/Tauhait/telco-customer-churn",
-      "description": "📦 Predict behavior to retain customers. We can analyze all relevant customer data and develop focused customer retention programs.",
+      "description": "📦 Deployed a docker based wide array of classification models for empowering businesses to implement targeted customer retention strategies such as marketing campaigns which can easily achieve > 20% churn reduction.",
       "isFork": false,
       "languages": [
         {
@@ -40,9 +40,9 @@
     },
     {
       "id": "R_kgDOG0_8uQ",
-      "name": "Cassava Leaf Disease Classification",
+      "name": "KAGGLE CASSAVA LEAF DISEASE CLASSIFY APP | CV",
       "url": "https://github.com/Tauhait/cassava-leaf-disease-classification",
-      "description": "☘️ Task is to classify each cassava image into four disease categories or a fifth category indicating a healthy leaf. With your help, farmers may be able to quickly identify diseased plants, potentially saving their crops before they inflict irreparable damage.",
+      "description": "☘️ Built an Android app based on CNNs using Transfer Learning with base EfficientNet / MobileNet by converting the model into the TFLite format to carry out on-the-spot classification in < 1 sec time.",
       "isFork": false,
       "languages": [
         {
@@ -53,9 +53,9 @@
     },
     {
       "id": "R_kgDOGcPKSQ",
-      "name": "Autonomous Navigation",
-      "url": "https://github.com/Tauhait/Suzuki_IITH",
-      "description": "⚙️ Created and put into action a robust and efficient multithreaded message passing module, leveraging socket programming",
+      "name": "PDF-CHATBOT-LLM | Generative AI",
+      "url": "https://github.com/Tauhait/llm-pdf-QnA-app",
+      "description": "🪄 Developed a transformer architecture based question-and-answer chatbot for PDFs powered by Prompt Engineering and GPT-3.5, utilizing LanChain, & OpenAI libraries to shorten reading time by more than 10 times.",
       "isFork": false,
       "languages": [
         {
@@ -66,9 +66,9 @@
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMjcyMjI5Njk=",
-      "name": "Jargon Detection",
+      "name": "KAGGLE-AAAI-23-SDU | NLP (NER-POS tagging task)",
       "url": "https://github.com/Tauhait/CS5700-IITH-NLP",
-      "description": "🚀 Classify technical terms, akin to NER-POS tagging using Bi-LSTM and ElMo",
+      "description": "🗣️ Achieved an impressive 96% Kaggle score by developing a RNN based model comprising of ELMo embeddings, BiLSTM, and CRF layers. This project aims to identify domain-specific technical terminology (jargon) used in scientific research papers. The task involves identifying specific words or commonly used terms with particular meanings within a particular field.",
       "isFork": false,
       "languages": [
         {
@@ -79,9 +79,9 @@
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "Data Visualization",
-      "url": "https://github.com/Tauhait/AI5002",
-      "description": "🚀 Implement simulations of important probability distributions",
+      "name": "Mathematics for Data Science",
+      "url": "https://github.com/Tauhait/Mathematics-AI-DS-ML-DL",
+      "description": "🧮 Implement simulations in Matrix Theory, Calculus and Probability & Statistics under Mathematics for Data Science",
       "isFork": false,
       "languages": [
         {
