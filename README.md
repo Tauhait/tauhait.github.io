@@ -19,16 +19,16 @@ Steps to re-build:
 
 → git checkout master
 	 
-→ npm run buid
+→ npm run build
 
-→ ggit checkout man
+→ git checkout man
 
-→ cd buld
+→ cd build
 
 →  git init
 
 → git remote add origin https://github.com/Tauhait/tauhait.github.o
 
-→ git commit -m "deploy buil"
+→ git commit -m "deploy build"
 
-→️ it push -f origin main
+→️ git push -f origin main
